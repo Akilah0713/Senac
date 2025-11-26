@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Metas Diárias</title>
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Painel de Metas Diárias</h1>
+    </header>
+    <main>        
+        <section>
+            <h2>Adicionar Nova Meta</h2>
+            <form id="formulario">
+                <label>Nome:</label>
+                <input id="titulo" type="text" id="titulo" placeholder="Titulo da meta" required>
+                <textarea id="descricao" placeholder="Descrição da meta" required></textarea>
+                <select id="prioridade" required>
+                    <option value="baixa">Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select>    
+                <input type="date" id="dataMeta" required>    
+                <button id="btn-adicionar">Adicionar Meta</button>
+            </form>
+            <div id="erro"></div>
+        </section>
+        <section id="lista">
+            <h3>Metas Adicionadas</h3>
+            <ul id="lista-metas"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>Akilah Bianca - 14/11/2025</p>
+    </footer>
+    <script src="./Js/script.js"></script>
+</body>
+</html>

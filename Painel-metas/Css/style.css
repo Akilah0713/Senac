@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+header {
+    background: #321941;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+main {
+    flex: 1;
+    max-width: 700px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #430566;
+    margin: 20px auto;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: black;
+}
+
+#formulario, #lista {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea, select, button {
+    width: auto;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 1px solid #58d1e6;
+    display: flex;
+    
+}
+
+button {
+    background: #6f1294e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #003f82;
+}
+
+#erro {
+    color: red;
+    font-weight: bold;
+}
+
+#lista-metas li {
+    background: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    list-style: none;
+    border-left: 6px solid gray;
+}
+
+.baixa {
+    color: green;
+}
+
+.media {
+    color: orange;
+}
+
+.alta {
+    color: green;
+}
+
+.botoes {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.concluida {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+@media (max-width: 600px) {
+    #form-section {
+        max-width: 100%
+    }
+
+    #lista-metas {
+        max-width: 100%
+    }
+};
+    
