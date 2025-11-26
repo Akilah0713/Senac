@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to botton);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 0;
+    background-color: rgb(181, 240, 255);
+}
+
+main section {
+    background: rgba(98, 121, 165, 0.699);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    text-align: center;
+}
+
+#frase {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(88, 68, 204);
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+button :hover {
+    background-color: #45a049;
+}
+
+footer {
+    margin-bottom: 20px;
+    font-size: 00.8em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #942ddf;
+}
