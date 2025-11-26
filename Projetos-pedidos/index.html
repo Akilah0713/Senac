@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte sua Refeição</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Monte sua Refeição</h1>
+    </header>
+
+    <main> 
+        <section id="formulario">
+        <form id="formulario">
+
+            <label>Prato:</label>
+            <select id="prato">
+                <option value="">Selecione:</option>
+                <option value="strogonoff">Strogonoff</option>
+                <option value="lasanha">Lasanha</option>
+                <option value="fricassé">Fricassé</option>
+            </select>
+
+            <label>Bebidas:</label>
+            <select id="bebidas">
+                <option value="">Selecione:</option>
+                <option value="coca Cola">Coca Cola</option>
+                <option value="guaraná">Guaraná</option>
+                <option value="agua">Água</option>
+            </select>
+
+            <p>Adicionais:</p>
+                <label><input type="checkbox" class="adic" value="sobra">Sobremesa</label><br>
+                <label><input type="checkbox" class="adic" value="extra">Molho extra</label><br>
+
+                <p id="erro" class="hidden"></p>
+
+                <button type="button" id="btnCalcular">Calcular</button>
+        </form>
+       </section>
+
+       <section id="resultado" class="hidden">
+        <h2>Resumo do Pedido</h2>
+
+        <p id="resPrato"></p>
+        <p id="resBebida"></p>
+        <p id="resAdicionais"></p>
+        <p id="total"></p>
+
+        <button id="btnNovo">Novo Pedido</button>
+       </section>
+    </main>
+
+    <footer>
+        <p>Akilah Bianca - 26/11/2025</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
