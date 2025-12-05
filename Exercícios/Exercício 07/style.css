@@ -1,0 +1,60 @@
+:root {
+    --primary-color: #00d0ff;
+    --primary-color-darker: #008dad;
+    --success: #c7febd;
+    --dabger: #ce6262;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    line-height: 1,5em;
+}
+h1 {
+    text-align: center;
+}
+.alta {
+    color:red
+}
+.media{
+    color:yellow
+}
+.baixo{
+    color:green
+}
+.tarefa{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input {
+    font-size: 24px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+form button {
+    border: none;
+    background-color: var(--primary-color);
+    color:#fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+select {
+    font-size: 24px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 25px;
+}
