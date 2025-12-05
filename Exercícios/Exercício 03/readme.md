@@ -3,10 +3,10 @@
 Este projeto é uma simulação simples de saque bancário que utiliza HTML + JavaScript para solicitar dados do usuário, verificar saldo disponível e exibir um resumo completo da operação.
 
 O objetivo do projeto é treinar lógica, estrutura condicional e manipulação do DOM.
-![Prévia do Projeto](/Imagens%202/Prévia%20do%20projeto%20simulador%20de%20caixa.png) 
-![Prévia do Projeto](/Imagens%202/001.png) 
-![Prévia do Projeto](/Imagens%202/002.png) 
-![Prévia do Projeto](/Imagens%202/003.png) 
+![Prévia do Projeto](../Imagens%202/Prévia%20do%20projeto%20simulador%20de%20caixa.png) 
+![Prévia do Projeto](../Imagens%202/001.png) 
+![Prévia do Projeto](../Imagens%202/002.png) 
+![Prévia do Projeto](../Imagens%202/003.png) 
 
 
 ## Funcionalidades 

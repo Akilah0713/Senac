@@ -4,10 +4,10 @@ Este projeto simula um sistema simples de descontos baseado no tipo de cliente.
 O usuário informa o nome do produto, seu preço e o tipo de cliente (Comum, Estudante ou Assinante).
 Com esses dados, o sistema calcula o valor do desconto e exibe todas as informações diretamente na página HTML.
 
-![Prévia do Projeto](/Imagens%202/prévia%20do%20projeto%20resultado%20da%20compra.png) 
-![Prévia do Projeto](/Imagens%202/0001.png) 
-![Prévia do Projeto](/Imagens%202/0002.png) 
-![Prévia do Projeto](/Imagens%202/0003.png) 
+![Prévia do Projeto](../Imagens%202/prévia%20do%20projeto%20resultado%20da%20compra.png) 
+![Prévia do Projeto](../Imagens%202/0001.png) 
+![Prévia do Projeto](../Imagens%202/0002.png) 
+![Prévia do Projeto](../Imagens%202/0003.png) 
 
 
 ## Funcionalidades 

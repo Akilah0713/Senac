@@ -1,7 +1,7 @@
 # Projeto Gerador de Senhas 
 
 Este projeto é uma aplicação simples e funcional desenvolvido em JavaScript que permite ao usuário gerar senhas aleatórias personalizadas, escolhendo o tamanho e os tipos de caracteres que deseja incluir (números, letras maiúsculas e símbolos).
-![Prévia do Projeto](/Imagens%202/Print%20do%20projeto%20gerador%20de%20senhas.png)
+![Prévia do Projeto](../Imagens%202/Print%20do%20projeto%20gerador%20de%20senhas.png)
 
 ## Funcionalidades 
 

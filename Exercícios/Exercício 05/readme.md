@@ -4,17 +4,19 @@ Este projeto implementa um sistema básico de login utilizando HTML + JavaScript
 
 Trata-se de um exercício excelente para praticar arrays, objetos, condicionais e comparação de dados.
 
-![Prévia do Projeto](/Imagens%202/Print%20do%20projeto%20gerador%20de%20senhas.png)
+![Prévia do Projeto](../Imagens%202/Prévia%20do%20projeto.png)
+![Prévia do Projeto](../Imagens%202/previa%2002.png)
+![Prévia do Projeto](../Imagens%202/previa%2003.png)
+![Prévia do Projeto](../Imagens%202/previa%2004.png)
 
 ## Funcionalidades 
 
-- Gera senhas com tamanho definido pelo usuário
-- Opção de incluir números-
-- Opção de incluir letras maiúsculas-
-- Opção de incluir símbolos-
-- Exibição da senha diretamente no HTML-
-- Interface simples e fácil de entender-
-- Totalmente funcional apenas com JavaScript puro (sem bibliotecas externas)
+- Lista de usuários cadastrados via array de objetos
+- Captura nome e senha via prompt()
+- Verificação de credenciais com .find() ou loop
+- Validação simples de login
+- Exibição da mensagem final no HTML
+- Lógica feita apenas com JavaScript puro
 
 ## Tecnologias utilizadas 
 
@@ -35,14 +37,21 @@ No GitHub Desktop:
     No menu: File(Arquivo) > Clone a repositor(Clonar repositório) > Selecione a aba URL, no campo URL, cole o link do repositório https://github.com/Akilah0713/Senac.git
 
 ## Melhorias futuras 
-- Botão para copiar a senha automaticamente
-- Botão para gerar novamente sem precisar responder aos prompts
-- Exibição de nível de segurança da senha
-- Campo para "senha mínima" obrigatória com cada tipo de caractere
-- Opção de visualizar/ocultar senha
-- Modo claro/escuro
-- Estilização moderna usando CSS ou frameworks
-- Animações ao gerar senha
+- Substituir prompts por inputs dentro da página
+- Criar uma página de login estilizada
+- Mensagens animadas ou pop-ups de erro/sucesso
+- Layout responsivo mais profissional
+- Impedir entrada de campos vazios
+- Criar botão para mostrar/ocultar senha
+- Adicionar mais usuários dinamicamente
+- Sistema de logout
+- Limitar tentativas de login
+- Adicionar níveis de acesso (admin, usuário comum)
+- Salvar usuários no localStorage
+- Criação de cadastro com validação completa
+- Conectar a um banco de dados real
+- Hash de senha para maior segurança
+- Criar uma API simples de autenticação
 
 ## O que aprendi 
 - Manipular DOM
