@@ -1,7 +1,7 @@
 # Projeto Sistema de Cálculo de Média do Aluno 
 
 Este projeto é uma aplicação simples em HTML, CSS e JavaScript criado para solicitar o nome e as quatro notas de um aluno, calcular a média final e exibir sua situação acadêmica de forma clara e dinâmica no navegador.
-![Prévia do Projeto](/Imagens%202/prévia%20do%20projeto%20Média%20do%20aluno.png)
+![Prévia do Projeto](../Imagens%202/prévia%20do%20projeto%20Média%20do%20aluno.png)
 
 ## Funcionalidades 
 
