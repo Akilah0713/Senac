@@ -27,3 +27,8 @@ Este projeto foi criado para praticar conceitos de programação. Aqui você enc
 - Navegador Google Chrome (para testes)
 
 ---
+
+## Autor
+Akilah Bianca
+Turma de Tecnologia em Informática para internet
+Vespertino - Senac DF

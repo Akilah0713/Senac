@@ -49,4 +49,5 @@ No GitHub Desktop:
 
 ## Autor
 Akilah Bianca
-Turma de Tecnologia em Informática para internet, Vespertino - Senac DF
+Turma de Tecnologia em Informática para internet
+Vespertino - Senac DF

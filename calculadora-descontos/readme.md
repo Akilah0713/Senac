@@ -5,10 +5,10 @@ Este projeto é uma aplicação simples de uma calculadora de descontos.A Calcul
 ![Prévia do Projeto](/Imagens/prévia%20do%20projeto.png)
 
 ## Funcionalidades 
-Inserir o valor original do produto
-Inserir a porcentagem de desconto desejada
-Calcular automaticamente o valor final
-Exibir o preço final após aplicar o desconto
+- Inserir o valor original do produto
+- Inserir a porcentagem de desconto desejada
+- Calcular automaticamente o valor final
+- Exibir o preço final após aplicar o desconto
 
 ## Tecnologias utilizadas 
 
@@ -29,12 +29,12 @@ No GitHub Desktop:
     No menu: File(Arquivo) > Clone a repositor(Clonar repositório) > Selecione a aba URL, no campo URL, cole o link do repositório https://github.com/Akilah0713/Senac.git
 
 ## Melhorias futuras 
-Adicionar modo escuro
-Adicionar salvamento de dados
-Criar filtro de categorias
-Modo calculadora avançada com mais opções (juros, acréscimos, parcelas)
-Animações suaves ao calcular o desconto
-Salvar preferências do usuário (ex.: últimos valores digitados)
+- Adicionar modo escuro
+- Adicionar salvamento de dados
+- Criar filtro de categorias
+- Modo calculadora avançada com mais opções (juros, acréscimos, parcelas)
+- Animações suaves ao calcular o desconto
+- Salvar preferências do usuário (ex.: últimos valores digitados)
 
 ## O que aprendi 
 - Manipular DOM
@@ -44,4 +44,5 @@ Salvar preferências do usuário (ex.: últimos valores digitados)
 
 ## Autor
 Akilah Bianca
-Turma de Tecnologia em Informática para internet, Vespertino - Senac DF
+Turma de Tecnologia em Informática para internet
+Vespertino - Senac DF
