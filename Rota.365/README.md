@@ -18,7 +18,7 @@ Layout adaptado para celular, tablet e desktop.
 - ✉️ Formulário de Contato/Reserva
 O usuário pode preencher seus dados e solicitar uma cotação de viagem.
 
-## Tecnologias utilizadas 
+## Tecnologias utilizadas! 
 
 - HTML
 - CSS
@@ -37,12 +37,27 @@ No GitHub Desktop:
     No menu: File(Arquivo) > Clone a repositor(Clonar repositório) > Selecione a aba URL, no campo URL, cole o link do repositório https://github.com/Akilah0713/Senac.git
 
 ## Melhorias futuras 
-- Adicionar modo escuro
-- Adicionar salvamento de dados
-- Criar filtro de categorias
-- Modo calculadora avançada com mais opções (juros, acréscimos, parcelas)
-- Animações suaves ao calcular o desconto
-- Salvar preferências do usuário (ex.: últimos valores digitados)
+- Cadastro e login com email/senha
+- Perfil com favoritos, histórico de buscas e preferências de viagem
+- salvar favoritos no banco de dados
+- Permitir acessar os salvos em qualquer dispositivo
+- Adicionar dados reais usando APIs, por exemplo:Clima (OpenWeather) | Conversão de moedaMapas (Google Maps / Leaflet) | Voos e hotéis (Skyscanner API, Booking API)
+- Usuários podem avaliar um destino
+- Deixar comentários e dicas
+- Exibir média de avaliação
+- Adicionar destino
+- Criar roteiro dia a dia
+- Calcular estimativa de gastos
+- Baixar o roteiro em PDF
+- Português / Inglês / Espanhol
+- Botão para trocar idioma
+- Detecção automática da região do usuário
+- Sugerir destinos parecidos
+- Destinos mais visitados
+- Promoções relacionadas
+- Enviar promoções
+- Novos destinos
+- Dicas de viagem
 
 ## O que aprendi 
 - Manipular DOM
