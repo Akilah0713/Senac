@@ -65,7 +65,7 @@ No GitHub Desktop:
 - Organizar minhas pastas em um projeto real
 - Subir projetos no GitHub
 
-## Autor
-Akilah Bianca
+## Autores do Projeto 
+Akilah Bianca, Felipe, Pedro e Vitor
 Turma de Tecnologia em Informática para internet
 Vespertino - Senac DF
