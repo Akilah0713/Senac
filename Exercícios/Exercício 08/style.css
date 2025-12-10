@@ -1,0 +1,117 @@
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ===== FORMULÁRIO ===== */
+form {
+    background: #ffffff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 12px;
+    background: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #304bd4;
+}
+
+/* ===== ÁREA DA LISTA ===== */
+#lista {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* ===== CARD DO LIVRO ===== */
+.card {
+    width: 250px;
+    padding: 18px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.card h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #222;
+}
+
+.card hr {
+    margin: 8px 0;
+}
+
+/* ===== TAGS ===== */
+.tag-classica,
+.tag-moderna {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tag-classica {
+    background: #b5651d; /* marrom clássico */
+}
+
+.tag-moderna {
+    background: #0078ff; /* azul moderno */
+}
+
+/* ===== CATEGORIAS DO CARD ===== */
+.classico {
+    border-left: 6px solid #b5651d;
+}
+
+.moderno {
+    border-left: 6px solid #0078ff;
+}

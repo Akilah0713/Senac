@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e3e8ff; /* fundo azul pastel */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #6c5ce7; /* lilás */
+    font-size: 2em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+form {
+    background: #ffffff;
+    padding: 25px 30px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid #dcd6ff; /* borda suave lilás */
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #c9c9ff; /* azul/lilás suave */
+    border-radius: 8px;
+    outline: none;
+    background: #f8f7ff;
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 5px rgba(108, 92, 231, 0.4);
+}
+
+button {
+    width: 100%;
+    background-color: #74b9ff; /* azul pastel */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #0984e3; /* azul mais forte */
+}
+
+#lista {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* --- CARDS DOS LIVROS --- */
+.card {
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    text-align: left;
+    position: relative;
+}
+
+/* TAG no canto */
+.card span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Livros clássicos (antes de 2000) */
+.classico {
+    border-left: 5px solid #fd79a8; /* rosa pastel */
+}
+.tag-classica {
+    background: #fd79a8;
+}
+
+/* Livros modernos (2000+) */
+.moderno {
+    border-left: 5px solid #55efc4; /* verde pastel */
+}
+.tag-moderna {
+    background: #55efc4;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
